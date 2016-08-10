@@ -2,7 +2,4 @@ language: objective-c
 osx_image: xcode7.3
 
 script:
-- xcodebuild clean build test -project PageMenu/PageMenu.xcodeproj -scheme PageMenuFramework GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
-
-after_success:
-- bash <(curl -s https://codecov.io/bash)
+- xcodebuild clean build -project PageMenu/PageMenu.xcodeproj -scheme PageMenuFramework 
