@@ -1,0 +1,5 @@
+language: swift
+osx_image: xcode7.3.1
+xcode_project: PageMenu/PageMenu.xcodeproj
+xcode_scheme: PageMenuFramework
+xcode_sdk: iphonesimulator9.3
